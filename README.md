@@ -95,7 +95,7 @@ L'IA (Claude) a été utilisée dans ce projet comme outil pédagogique pour :
 - **Débogage** : analyse des erreurs de compilation et de logique
 
 
-## 💻 Instructions installation & utilisation
+## 💻 Instruction - Installation & utilisation
 1. Clonez le dépôt :
    git clone https://github.com/Charlene7508/42---LIBFT.git
 2. Compiler le projet :
