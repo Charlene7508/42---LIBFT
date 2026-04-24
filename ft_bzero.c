@@ -11,3 +11,15 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
+
+/*
+#include <stdio.h>
+int	main(void)
+{
+    char s[10] = "Bonjour!!";
+    ft_bzero(s, 4);
+    printf("Attendu : (4 octets nuls)our!!\n");
+    printf("Obtenu  : %s\n", s);
+	
+	return(0);
+}*/

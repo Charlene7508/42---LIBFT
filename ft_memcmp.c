@@ -18,3 +18,28 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+
+/*
+#include <stdio.h>
+int	main(void)
+{
+	char str_memcmp[] = "Bonjour";
+    int result_memcmp;
+
+    printf("Cas : zones identiques\n");
+    result_memcmp = ft_memcmp(str_memcmp, "Bonjour", 8);
+    printf("Attendu : 0\n");
+    printf("Obtenu  : %d\n", result_memcmp);
+
+    printf("Cas : premier < second\n");
+    result_memcmp = ft_memcmp(str_memcmp, "Bonsoir", 8);
+    printf("Attendu : negatif\n");
+    printf("Obtenu  : %d\n", result_memcmp);
+
+    printf("Cas : premier > second\n");
+    result_memcmp = ft_memcmp(str_memcmp, "Aurevoir", 9);
+    printf("Attendu : positif\n");
+    printf("Obtenu  : %d\n", result_memcmp);
+
+   	return(0);
+}*/

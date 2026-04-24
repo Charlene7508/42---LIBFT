@@ -18,3 +18,23 @@ char	*ft_strchr(const char *str, int c)
 		return ((char *)&str[i]);
 	return (NULL);
 }
+
+/*
+#include <stdio.h>
+int	main(void)
+{
+	char str_c[] = "Bonjour";
+    char *result_chr;
+
+    printf("Cas : caractere present\n");
+    result_chr = ft_strchr(str_c, 'j');
+    printf("Attendu : jour\n");
+    printf("Obtenu  : %s\n", result_chr);
+
+	printf("Cas : recherche du \\0\n");
+    result_chr = ft_strchr(str_c, '\0');
+    printf("Attendu : adresse\n");
+    printf("Obtenu  : %p\n", (void *)result_chr);
+	
+	return(0);
+}*/

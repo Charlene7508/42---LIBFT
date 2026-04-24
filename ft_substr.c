@@ -28,3 +28,30 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[j] = '\0';
 	return (sub);
 }
+
+/*
+#include <stdio.h>
+int	main(void)
+{
+	char *sub;
+
+    printf("Cas : cas normal\n");
+    sub = ft_substr("Hello", 2, 6);
+    printf("Attendu : llo\n");
+    printf("Obtenu  : %s\n", sub);
+    free(sub);
+
+    printf("Cas : start > longueur de s\n");
+    sub = ft_substr("Hello", 10, 3);
+    printf("Attendu : (vide)\n");
+    printf("Obtenu  : %s\n", sub);
+    free(sub);
+
+    printf("Cas : s = NULL\n");
+    sub = ft_substr(NULL, 0, 3);
+    printf("Attendu : (nil)\n");
+    printf("Obtenu  : %p\n", (void *)sub);
+    free(sub);
+
+   	return(0);
+}*/

@@ -13,3 +13,27 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
+
+/*
+#include <stdio.h>
+static void    upper_if_even(unsigned int i, char *c)
+{
+    if (i % 2 == 0)
+        *c = ft_toupper(*c);
+}
+int	main(void)
+{
+	printf("Cas : cas normal\n");
+    char str_iteri[] = "hello";
+    ft_striteri(str_iteri, upper_if_even);
+    printf("Attendu : HeLlO\n");
+    printf("Obtenu  : %s\n", str_iteri);
+    
+    printf("Cas : string vide\n");
+    char str_iteri2[] = "";
+    ft_striteri(str_iteri2, upper_if_even);
+    printf("Attendu : (vide)\n");
+    printf("Obtenu  : %s\n", str_iteri2);
+    
+   	return(0);
+}*/

@@ -25,3 +25,30 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	}
 	return (dst_len + src_len);
 }
+
+/*
+#include <stdio.h>
+int	main(void)
+{
+	printf("Cas : concatenation normale\n");
+    char src_cat[] = "stud 42 !";
+    char dst_cat[20] = "Bonjour ";
+    size_t ret_cat;
+    ret_cat = ft_strlcat(dst_cat, src_cat, 20);
+    printf("Attendu : Bonjour stud 42 ! / longueur 17\n");
+    printf("Obtenu  : %s / longueur %zu\n", dst_cat, ret_cat);
+
+    printf("Cas : concatenation tronquee\n");
+    char dst_cat2[10] = "Bonjour ";
+    ret_cat = ft_strlcat(dst_cat2, src_cat, 10);
+    printf("Attendu : Bonjour s / longueur 17\n");
+    printf("Obtenu  : %s / longueur %zu\n", dst_cat2, ret_cat);
+
+    printf("Cas : strlen dst > size\n");
+    char dst_cat3[20] = "Bonjour ";
+    ret_cat = ft_strlcat(dst_cat3, src_cat, 3);
+    printf("Attendu : longueur 12\n");
+    printf("Obtenu  : longueur %zu\n", ret_cat);
+	
+	return(0);
+}*/

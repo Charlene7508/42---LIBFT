@@ -15,3 +15,30 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(s3, s2, len);
 	return (s3);
 }
+
+/*
+#include <stdio.h>
+int	main(void)
+{
+	char *strj;
+
+    printf("Cas : cas normal\n");
+    strj = ft_strjoin("Hello ", "students");
+    printf("Attendu : Hello students\n");
+    printf("Obtenu  : %s\n", strj);
+    free(strj);
+
+    printf("Cas : string s1 vide\n");
+    strj = ft_strjoin("", "students");
+    printf("Attendu : students\n");
+    printf("Obtenu  : %s\n", strj);
+    free(strj);
+
+    printf("Cas : string s1 NULL\n");
+    strj = ft_strjoin(NULL, "students");
+    printf("Attendu : (nil)\n");
+    printf("Obtenu  : %p\n", (void *)strj);
+    free(strj);
+
+   	return(0);
+}*/

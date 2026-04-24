@@ -23,3 +23,32 @@ char	*ft_strnstr(const char *str, const char *to_find, size_t n)
 	}
 	return (NULL);
 }
+
+/*
+#include <stdio.h>
+int	main(void)
+{
+	char *result_strnstr;
+
+    printf("Cas : substring trouvee\n");
+    result_strnstr = ft_strnstr("Bonjour", "jour", 7);
+    printf("Attendu : jour\n");
+    printf("Obtenu  : %s\n", result_strnstr);
+
+    printf("Cas : substring absente\n");
+    result_strnstr = ft_strnstr("Bonjour", "soir", 7);
+    printf("Attendu : (nil)\n");
+    printf("Obtenu  : %p\n", (void *)result_strnstr);
+
+    printf("Cas : to_find vide\n");
+    result_strnstr = ft_strnstr("Bonjour", "", 7);
+    printf("Attendu : Bonjour\n");
+    printf("Obtenu  : %s\n", result_strnstr);
+
+	printf("Cas : n = 0\n");
+    result_strnstr = ft_strnstr("Bonjour", "jour", 0);
+    printf("Attendu : (nil)\n");
+    printf("Obtenu  : %p\n", (void *)result_strnstr);
+
+   	return(0);
+}*/

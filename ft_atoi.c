@@ -42,3 +42,46 @@ int	ft_atoi(const char *str)
 		return (0);
 	return (ft_resultat(str, i) * signe);
 }
+
+/*
+#include <stdio.h>
+int	main(void)
+{
+	printf("Cas : nombre positif\n");
+    printf("Attendu : 85\n");
+    printf("Obtenu  : %d\n", ft_atoi("85"));
+
+    printf("Cas : nombre negatif\n");
+    printf("Attendu : -85\n");
+    printf("Obtenu  : %d\n", ft_atoi("-85"));
+
+    printf("Cas : signe +\n");
+    printf("Attendu : 85\n");
+    printf("Obtenu  : %d\n", ft_atoi("+85"));
+
+    printf("Cas : espaces avant\n");
+    printf("Attendu : 85\n");
+    printf("Obtenu  : %d\n", ft_atoi("   85"));
+
+    printf("Cas : caracteres apres\n");
+    printf("Attendu : 85\n");
+    printf("Obtenu  : %d\n", ft_atoi("85abc"));
+
+    printf("Cas : plusieurs signes\n");
+    printf("Attendu : 0\n");
+    printf("Obtenu  : %d\n", ft_atoi("+-85"));
+
+    printf("Cas : string vide\n");
+    printf("Attendu : 0\n");
+    printf("Obtenu  : %d\n", ft_atoi(""));
+
+    printf("Cas : que des espaces\n");
+    printf("Attendu : 0\n");
+    printf("Obtenu  : %d\n", ft_atoi("   "));
+
+    printf("Cas : zero\n");
+    printf("Attendu : 0\n");
+    printf("Obtenu  : %d\n", ft_atoi("0"));
+
+   	return(0);
+}*/

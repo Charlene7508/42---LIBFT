@@ -25,3 +25,40 @@ void	ft_putnbr_fd(int nb, int fd)
 	c = '0' + (nb % 10);
 	ft_putchar_fd(c, fd);
 }
+
+/*
+#include <stdio.h>
+int	main(void)
+{
+	printf("Cas : affichage stdout classique\n");
+    printf("Attendu : 42\n");
+    printf("Obtenu  : ");
+    ft_putnbr_fd(42, 1);
+    ft_putchar_fd('\n', 1);
+
+    printf("Cas : nbr negatif\n");
+    printf("Attendu : -42\n");
+    printf("Obtenu  : ");
+    ft_putnbr_fd(-42, 1);
+    ft_putchar_fd('\n', 1);
+
+    printf("Cas : INT MAX\n");
+    printf("Attendu : 2147483647\n");
+    printf("Obtenu  : ");
+    ft_putnbr_fd(2147483647, 1);
+    ft_putchar_fd('\n', 1);
+
+    printf("Cas : INT MIN\n");
+    printf("Attendu : -2147483648\n");
+    printf("Obtenu  : ");
+    ft_putnbr_fd(-2147483648, 1);
+    ft_putchar_fd('\n', 1);
+
+    printf("Cas : affichage stderr\n");
+    printf("Attendu : 4333\n");
+    printf("Obtenu  : ");
+    ft_putnbr_fd(4333, 2);
+    ft_putchar_fd('\n', 2);
+	
+   	return(0);
+}*/

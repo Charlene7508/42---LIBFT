@@ -16,3 +16,23 @@ void	*ft_memchr(const void *src, int c, size_t n)
 	}
 	return (NULL);
 }
+
+/*
+#include <stdio.h>
+int	main(void)
+{
+	char str_memchr[] = "Bonjour";
+    void *result_memchr;
+
+    printf("Cas : caractere present\n");
+    result_memchr = ft_memchr(str_memchr, 'j', 7);
+    printf("Attendu : jour\n");
+    printf("Obtenu  : %s\n", (char *)result_memchr);
+    
+    printf("Cas : caractere absent\n");
+    result_memchr = ft_memchr(str_memchr, 'z', 7);
+    printf("Attendu : (nil)\n");
+    printf("Obtenu  : %p\n", result_memchr);
+
+   	return(0);
+}*/

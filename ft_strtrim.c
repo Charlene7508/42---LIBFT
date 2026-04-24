@@ -33,3 +33,42 @@ char	*ft_strtrim(char const *s1, char const *set)
 	sub = ft_substr(s1, start, len);
 	return (sub);
 }
+
+/*
+#include <stdio.h>
+int	main(void)
+{
+	char *trim;
+
+    printf("Cas : cas normal\n");
+    trim = ft_strtrim("###Bonjour###", "#");
+    printf("Attendu : Bonjour\n");
+    printf("Obtenu  : %s\n", trim);
+    free(trim);
+
+    printf("Cas : set vide\n");
+    trim = ft_strtrim("Bonjour", "");
+    printf("Attendu : Bonjour\n");
+    printf("Obtenu  : %s\n", trim);
+    free(trim);
+
+    printf("Cas : string vide\n");
+    trim = ft_strtrim("", "#");
+    printf("Attendu : (vide)\n");
+    printf("Obtenu  : %s\n", trim);
+    free(trim);
+
+    printf("Cas : s1 NULL\n");
+    trim = ft_strtrim(NULL, "#");
+    printf("Attendu : (nil)\n");
+    printf("Obtenu  : %p\n", (void *)trim);
+    free(trim);
+
+    printf("Cas : set absent de s1\n");
+    trim = ft_strtrim("Bonjour", "z");
+    printf("Attendu : Bonjour\n");
+    printf("Obtenu  : %s\n", trim);
+    free(trim);
+
+   	return(0);
+}*/

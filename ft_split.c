@@ -99,3 +99,65 @@ char	**ft_split(char const *s, char c)
 	}
 	return (new_tab);
 }
+
+/*
+#include <stdio.h>
+int	main(void)
+{
+	char **spl;
+    int i;
+
+    printf("Cas : cas normal\n");
+    spl = ft_split("Hello world !!", ' ');
+    printf("Attendu : Hello / world / !!\n");
+    printf("Obtenu  : ");
+    i = 0;
+    while (spl[i] != NULL)
+    {
+        printf("%s", spl[i]);
+        if (spl[i + 1] != NULL)
+            printf(" / ");
+        i++;
+    }
+    printf("\n");
+    i = 0;
+    while (spl[i] != NULL)
+        free(spl[i++]);
+    free(spl);
+
+    printf("Cas : delimiteurs consecutifs\n");
+    spl = ft_split("Hello   world", ' ');
+    printf("Attendu : Hello / world\n");
+    printf("Obtenu  : ");
+    i = 0;
+    while (spl[i] != NULL)
+    {
+        printf("%s", spl[i]);
+        if (spl[i + 1] != NULL)
+            printf(" / ");
+        i++;
+    }
+    printf("\n");
+    i = 0;
+    while (spl[i] != NULL)
+        free(spl[i++]);
+    free(spl);
+
+    printf("Cas : string vide\n");
+    spl = ft_split("", ' ');
+    printf("Attendu : (tableau vide)\n");
+    printf("Obtenu  : ");
+    i = 0;
+    while (spl[i] != NULL)
+    {
+        printf("%s", spl[i]);
+        i++;
+    }
+    printf("\n");
+    i = 0;
+    while (spl[i] != NULL)
+        free(spl[i++]);
+    free(spl);
+
+   return(0);
+}*/
