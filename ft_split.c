@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_split.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 10:26:01 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 10:26:41 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 static int	count_words(const char *s, char c)
@@ -104,7 +116,7 @@ char	**ft_split(char const *s, char c)
 #include <stdio.h>
 int	main(void)
 {
-	char **spl;
+    char **spl;
     int i;
 
     printf("Cas : cas normal\n");

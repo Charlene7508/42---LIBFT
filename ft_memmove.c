@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 10:39:48 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 10:39:53 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t n)
@@ -31,7 +43,7 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 #include <stdio.h>
 int	main(void)
 {
-	printf("Cas : zones separees\n");
+    printf("Cas : zones separees\n");
     char src_move[10] = "Bonjour!!";
     char dst_move[10];
     ft_memmove(dst_move, src_move, 10);
@@ -55,5 +67,5 @@ int	main(void)
     printf("Attendu : (nil)\n");
     printf("Obtenu  : %p\n", (void *)test_move);
 	
-	return(0);
-}*/
+    return(0);
+}*/	

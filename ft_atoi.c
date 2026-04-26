@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 10:44:22 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 10:44:29 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 static int	ft_isspace(char c)
@@ -47,7 +59,7 @@ int	ft_atoi(const char *str)
 #include <stdio.h>
 int	main(void)
 {
-	printf("Cas : nombre positif\n");
+    printf("Cas : nombre positif\n");
     printf("Attendu : 85\n");
     printf("Obtenu  : %d\n", ft_atoi("85"));
 
@@ -83,5 +95,5 @@ int	main(void)
     printf("Attendu : 0\n");
     printf("Obtenu  : %d\n", ft_atoi("0"));
 
-   	return(0);
+    return(0);
 }*/

@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strtrim.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 10:46:43 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 10:46:51 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 static int	is_in_set(char c, const char *set)
@@ -70,5 +82,5 @@ int	main(void)
     printf("Obtenu  : %s\n", trim);
     free(trim);
 
-   	return(0);
+    return(0);
 }*/

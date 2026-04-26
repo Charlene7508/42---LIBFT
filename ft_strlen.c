@@ -1,22 +1,34 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 10:38:12 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 10:38:18 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 size_t	ft_strlen(const char *str)
 {
-	size_t	i;
+	size_t	len;
 
-	i = 0;
-	while (str[i] != '\0')
+	len = 0;
+	while (str[len] != '\0')
 	{
-		i++;
+		len++;
 	}
-	return (i);
+	return (len);
 }
 
 /*
 #include <stdio.h>
 int	main(void)
 {
-	printf("Cas : string normale\n");
+    printf("Cas : string normale\n");
     printf("Attendu : 7\n");
     printf("Obtenu  : %zu\n", ft_strlen("Bonjour"));
     
@@ -28,5 +40,5 @@ int	main(void)
     printf("Attendu : 0\n");
     printf("Obtenu  : %zu\n", ft_strlen(""));
     
-	return(0);
+    return(0);
 }*/

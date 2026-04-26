@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 10:40:07 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 10:40:10 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
@@ -25,7 +37,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 #include <stdio.h>
 int	main(void)
 {
-	printf("Cas : copie normale\n");
+    printf("Cas : copie normale\n");
     char src_cpy[10] = "Bonjour!!";
     char dst_cpy[10];
     size_t ret;
@@ -38,5 +50,5 @@ int	main(void)
     printf("Attendu : Bonj / longueur 9\n");
     printf("Obtenu  : %s / longueur %zu\n", dst_cpy, ret);
 	
-	return(0);
+   return(0);
 }*/

@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_substr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 10:45:30 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 10:45:38 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
@@ -53,5 +65,5 @@ int	main(void)
     printf("Obtenu  : %p\n", (void *)sub);
     free(sub);
 
-   	return(0);
+   return(0);
 }*/

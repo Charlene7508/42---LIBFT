@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_lstlast.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 11:12:55 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 11:14:11 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 t_list	*ft_lstlast(t_list *lst)
@@ -21,12 +33,12 @@ int	main(void)
 	ft_lstadd_front(&liste, ft_lstnew("A"));
 
 	printf("Cas : dernier element\n");
-    printf("Attendu : C\n");
-    printf("Obtenu  : %s\n", (char *)ft_lstlast(liste)->content);
+        printf("Attendu : C\n");
+        printf("Obtenu  : %s\n", (char *)ft_lstlast(liste)->content);
     
-    printf("Cas : liste NULL\n");
-    printf("Attendu : (nil)\n");
-    printf("Obtenu  : %p\n", (void *)ft_lstlast(NULL));
+        printf("Cas : liste NULL\n");
+        printf("Attendu : (nil)\n");
+        printf("Obtenu  : %p\n", (void *)ft_lstlast(NULL));
 	ft_lstclear(&liste, NULL);
    	return(0);
 }*/

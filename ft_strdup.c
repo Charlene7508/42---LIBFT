@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 10:45:06 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 10:45:09 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 char	*ft_strdup(const char *src)
@@ -26,7 +38,7 @@ char	*ft_strdup(const char *src)
 #include <stdio.h>
 int	main(void)
 {
-	printf("Cas : string normale\n");
+    printf("Cas : string normale\n");
     char *dup = ft_strdup("Bonjour");
     printf("Attendu : Bonjour\n");
     printf("Obtenu  : %s\n", dup);
@@ -38,5 +50,5 @@ int	main(void)
     printf("Obtenu  : %s longueur %zu\n", dup2, ft_strlen(dup2));
     free(dup2);
 
-   	return(0);
+    return(0);
 }*/

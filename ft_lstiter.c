@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_lstiter.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 11:22:27 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 11:23:44 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 void	ft_lstiter(t_list *lst, void (*f)(void *))
@@ -28,10 +40,10 @@ int	main(void)
 	ft_lstadd_front(&liste, ft_lstnew("A"));
 
 	printf("Cas : application sur chaque noeud\n");
-    printf("Attendu : A B C\n");
-    printf("Obtenu  : ");
-    ft_lstiter(liste, print_content);
-    printf("\n");
+	printf("Attendu : A B C\n");
+	printf("Obtenu  : ");
+        ft_lstiter(liste, print_content);
+        printf("\n");
 	ft_lstclear(&liste, NULL);
 
    	return(0);

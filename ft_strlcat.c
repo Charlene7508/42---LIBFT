@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 10:40:21 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 10:40:30 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
@@ -30,7 +42,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 #include <stdio.h>
 int	main(void)
 {
-	printf("Cas : concatenation normale\n");
+    printf("Cas : concatenation normale\n");
     char src_cat[] = "stud 42 !";
     char dst_cat[20] = "Bonjour ";
     size_t ret_cat;
@@ -50,5 +62,5 @@ int	main(void)
     printf("Attendu : longueur 12\n");
     printf("Obtenu  : longueur %zu\n", ret_cat);
 	
-	return(0);
+    return(0);
 }*/

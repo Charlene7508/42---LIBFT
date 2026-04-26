@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_lstclear.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 11:20:06 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 11:22:17 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
@@ -24,9 +36,9 @@ static void    del_content(void *content)
 	
 int	main(void)
 {
-	t_list	*liste3;
+    t_list	*liste3;
 
-	printf("Cas : suppression de toute la liste\n");
+    printf("Cas : suppression de toute la liste\n");
     liste3 = NULL;
     ft_lstadd_back(&liste3, ft_lstnew(ft_strdup("A")));
     ft_lstadd_back(&liste3, ft_lstnew(ft_strdup("B")));
@@ -36,5 +48,5 @@ int	main(void)
     ft_lstclear(&liste3, del_content);
     printf("apres = %p\n", (void *)liste3);
 
-   	return(0);
+    return(0);
 }*/

@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_itoa.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 10:47:29 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 10:50:57 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 static int	count_char(long nb)
@@ -54,7 +66,7 @@ char	*ft_itoa(int n)
 #include <stdio.h>
 int	main(void)
 {
-	char *asc;
+    char *asc;
 
     printf("Cas : nbre positif\n");
     asc = ft_itoa(85);
@@ -86,5 +98,5 @@ int	main(void)
     printf("Obtenu  : %s\n", asc);
     free(asc);
 
-   	return(0);
+    return(0);
 }*/

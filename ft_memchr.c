@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memchr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 10:42:12 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 10:42:38 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 void	*ft_memchr(const void *src, int c, size_t n)
@@ -10,7 +22,7 @@ void	*ft_memchr(const void *src, int c, size_t n)
 	while (i < n)
 	{
 		if (p[i] == (unsigned char)c)
-			return (p + i);
+			return (&p[i]);
 		else
 			i++;
 	}
@@ -21,7 +33,7 @@ void	*ft_memchr(const void *src, int c, size_t n)
 #include <stdio.h>
 int	main(void)
 {
-	char str_memchr[] = "Bonjour";
+    char str_memchr[] = "Bonjour";
     void *result_memchr;
 
     printf("Cas : caractere present\n");
@@ -34,5 +46,5 @@ int	main(void)
     printf("Attendu : (nil)\n");
     printf("Obtenu  : %p\n", result_memchr);
 
-   	return(0);
+   return(0);
 }*/

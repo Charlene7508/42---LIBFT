@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strnstr.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 10:44:03 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 10:44:13 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 char	*ft_strnstr(const char *str, const char *to_find, size_t n)
@@ -45,7 +57,7 @@ int	main(void)
     printf("Attendu : Bonjour\n");
     printf("Obtenu  : %s\n", result_strnstr);
 
-	printf("Cas : n = 0\n");
+    printf("Cas : n = 0\n");
     result_strnstr = ft_strnstr("Bonjour", "jour", 0);
     printf("Attendu : (nil)\n");
     printf("Obtenu  : %p\n", (void *)result_strnstr);

@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_striteri.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 10:53:59 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 10:55:29 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
@@ -23,7 +35,7 @@ static void    upper_if_even(unsigned int i, char *c)
 }
 int	main(void)
 {
-	printf("Cas : cas normal\n");
+    printf("Cas : cas normal\n");
     char str_iteri[] = "hello";
     ft_striteri(str_iteri, upper_if_even);
     printf("Attendu : HeLlO\n");
@@ -35,5 +47,5 @@ int	main(void)
     printf("Attendu : (vide)\n");
     printf("Obtenu  : %s\n", str_iteri2);
     
-   	return(0);
+   return(0);
 }*/

@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: chlepain <chlepain@learner.42.tech>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/04/25 10:45:56 by chlepain          #+#    #+#             */
+/*   Updated: 2026/04/25 10:46:33 by chlepain         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
@@ -20,7 +32,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 #include <stdio.h>
 int	main(void)
 {
-	char *strj;
+    char *strj;
 
     printf("Cas : cas normal\n");
     strj = ft_strjoin("Hello ", "students");
@@ -40,5 +52,5 @@ int	main(void)
     printf("Obtenu  : %p\n", (void *)strj);
     free(strj);
 
-   	return(0);
+   return(0);
 }*/
