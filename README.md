@@ -79,7 +79,7 @@ Au-delà de la technique, la réalisation de ce projet m'a permis de consolider 
 4. **Gestion de l'incertitude :** Recherche et auto-formation sur des concepts non enseignés, une compétence clé pour s'adapter à l'évolution constante des technologies.
 
 
-## 📖 Resources
+## 📖 Ressources
 
 ### Documentation de référence
 - [Man pages C](https://www.man7.org/linux/man-pages/) — référence des fonctions libc
